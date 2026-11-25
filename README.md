@@ -152,6 +152,20 @@ waterline) to 10 (the abyss); ratings are numbers from 0 to 10. Names and
 descriptions support inline code surrounded by backticks, but not arbitrary
 HTML.
 
+Items may also carry optional media:
+
+- `image`: a picture drawn above the name, depth tested against the ice like
+  the name itself. Square images are 192 CSS pixels tall; wide ones grow up to
+  2.6 times as wide.
+- `gallery`: a list of picture URLs shown in the item's description.
+- `contributors`: a list of `{ name, avatar, url? }` people shown with their
+  picture and name. `contributors_total` and `contributors_url` add an
+  "and N more" link when only some are listed.
+
+Hovering a name opens a compact preview card. Selecting it opens a modal
+covering most of the viewport, with large gallery pictures and every listed
+contributor; gallery pictures open full size on click.
+
 By default, selecting an item writes `?item=<slug>` and browser Back/Forward
 restores it. Set `syncUrl: false` to keep the containing page URL untouched.
 
@@ -201,6 +215,11 @@ accessibility instructions update with the mode. Custom hints remain host-owned.
 - `onViewChange`: callback after a mode change, for custom controls or host state.
 
 - `aboveWaterLabelStretch`: expands the above-water label span; defaults to 1.
+- `aboveWaterRing`: spreads above-water items evenly around the peak, so large
+  labels sit side by side instead of stacking; defaults to `false`.
+- `aboveWaterSpread`: multiplies how far above-water labels sit from the ice;
+  defaults to 1.
+- `cardWidth`: widest hover preview card, in CSS pixels; defaults to 320.
 - `assets`: overrides for the model, HDR environment, sky, or relief texture.
 - `hint`: custom interaction hint, or `false` to hide it.
 - `initialItem`: selected item when URL synchronization is disabled.

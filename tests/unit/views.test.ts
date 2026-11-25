@@ -139,7 +139,9 @@ test('moving past names dismisses hover previews without disturbing pinned descr
   entry.querySelector('button')!.click();
   labels.setNavigating(true);
   expect(entry.classList.contains('is-pinned')).toBe(true);
-  expect(entry.classList.contains('is-expanded')).toBe(true);
+  // A pinned item is shown in the modal instead of the hover card.
+  expect(entry.classList.contains('is-expanded')).toBe(false);
+  expect(host.querySelector<HTMLElement>('.iceberg-viewer__modal')!.hidden).toBe(false);
 });
 
 test('arc compresses the original azimuths instead of imposing rows or columns', () => {

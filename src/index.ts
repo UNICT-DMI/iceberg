@@ -19,6 +19,7 @@ export {
   arrangeItems,
   parseItems,
   slugFromQuery,
+  type IcebergContributor,
   type IcebergItem,
 } from "./item-data.js";
 
@@ -37,6 +38,15 @@ export interface IcebergOptions {
   viewSelector?: boolean;
   onViewChange?: (view: IcebergView) => void;
   aboveWaterLabelStretch?: number;
+  /**
+   * Spread above-water items evenly around the peak instead of alternating
+   * sides, so large labels can share a height without stacking.
+   */
+  aboveWaterRing?: boolean;
+  /** Multiplies how far above-water labels sit from the ice; defaults to 1. */
+  aboveWaterSpread?: number;
+  /** Widest description card, in CSS pixels; defaults to 320. */
+  cardWidth?: number;
   assets?: Partial<IcebergAssets>;
   ariaLabel?: string;
   canvasAriaLabel?: string;
@@ -370,7 +380,7 @@ function initializeIceberg(
 
   function beginTouchNavigation(event: PointerEvent) {
     if (event.pointerType !== "touch" || viewDrag.dragging
-      || (event.target instanceof Element && event.target.closest(".iceberg-viewer__view-selector"))) return;
+      || (event.target instanceof Element && event.target.closest(".iceberg-viewer__view-selector, .iceberg-viewer__lightbox, .iceberg-viewer__modal"))) return;
     viewDrag.dragging = true;
     viewDrag.pointerId = event.pointerId;
     viewDrag.lastX = event.clientX;
@@ -580,7 +590,7 @@ function initializeIceberg(
   }
 
   function handleIcebergScroll(event: WheelEvent) {
-    if (event.target instanceof Element && event.target.closest(".iceberg-viewer__view-selector")) return;
+    if (event.target instanceof Element && event.target.closest(".iceberg-viewer__view-selector, .iceberg-viewer__lightbox, .iceberg-viewer__modal")) return;
     dismissDescentPrompt();
     if (!cameraRail.ready) return;
     const verticalPixels = event.deltaMode === 1
@@ -642,10 +652,14 @@ function initializeIceberg(
     {
       view,
       aboveWaterLabelStretch: options.aboveWaterLabelStretch ?? 1,
+      aboveWaterRing: options.aboveWaterRing ?? false,
+      aboveWaterSpread: options.aboveWaterSpread ?? 1,
       ariaLabel: options.itemsAriaLabel ?? "Iceberg items",
       deepestLabelSpan: () => halfViewHeight * 1.65,
       initialItem: options.initialItem,
       syncUrl: options.syncUrl ?? true,
+      requestRender: () => animation?.wake(),
+      cardWidth: options.cardWidth ?? 320,
     },
   );
 
