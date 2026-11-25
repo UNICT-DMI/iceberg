@@ -83,7 +83,7 @@ for (const view of views) {
     await expect(page.getByRole('menu')).toBeHidden();
 
     await selectItem(page);
-    const details = page.locator('.is-pinned .iceberg-viewer__item-details');
+    const details = page.locator('.iceberg-viewer__modal-panel');
     await expect(details).toBeVisible();
     const card = await details.boundingBox();
     expect(card!.x).toBeGreaterThanOrEqual(0);
@@ -100,17 +100,18 @@ for (const view of views) {
     }
   });
 
-  test(`${view}: wheel over a pinned description keeps descending; final entry is reachable`, async ({ page }) => {
+  test(`${view}: wheel over the item modal leaves the iceberg still; final entry is reachable`, async ({ page }) => {
     await openIceberg(page, `view=${view}&embedded`);
     await page.locator('#iceberg').evaluate(el => el.scrollIntoView());
     await selectItem(page);
+    await settle(page);
     const before = await labelY(page, 'entry-56');
     const scrollY = await page.evaluate(() => window.scrollY);
-    const card = await page.locator('.is-pinned .iceberg-viewer__item-details').boundingBox();
+    const card = await page.locator('.iceberg-viewer__modal-panel').boundingBox();
     await page.mouse.move(card!.x + card!.width / 2, card!.y + 32);
     await page.mouse.wheel(0, 240);
     await settle(page);
-    await expect.poll(() => labelY(page, 'entry-56')).toBeLessThan(before - 2);
+    expect(await labelY(page, 'entry-56')).toBeCloseTo(before, 0);
     expect(await page.evaluate(() => window.scrollY)).toBe(scrollY);
     await noScrollbars(page, false);
     await page.keyboard.press('Escape');
@@ -198,6 +199,9 @@ test('horizontal wheel gestures enforce Arc and List rotation limits', async ({ 
   const x = () => page.locator('article[data-slug="entry-56"]').evaluate(el => new DOMMatrix(getComputedStyle(el).transform).m41);
   for (const view of views) {
     await openIceberg(page, `view=${view}&item=entry-56`);
+    // The item frames the camera; close its modal so the wheel reaches the iceberg.
+    await page.keyboard.press('Escape');
+    await settle(page);
     const initial = await x();
     await page.mouse.move(8, 300);
     await page.mouse.wheel(view === 'orbit' ? 80 : 5000, 0);
