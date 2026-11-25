@@ -1,0 +1,150 @@
+# UNICT Devs (github.com/UNICT-DMI) projects, from the tip to the abyss.
+schema_version = 1
+item_count = 14
+
+[[items]]
+slug = "ersu-news"
+name = "ERSU News"
+short_description = "Telegram bot and channel forwarding ERSU Catania news to students."
+url = "https://github.com/UNICT-DMI/ERSU-Bot"
+image = "logos/ersu-news.png"
+gallery = ["gallery/ersu-news-1.jpg", "gallery/ersu-news-2.jpg"]
+obscurity_bucket = 1
+obscurity_rating = 1.0
+cursedness_rating = 5.0
+
+[[items]]
+slug = "dmi-bot"
+name = "DMI Bot"
+short_description = "`@DMI_Bot`, the Telegram bot for DMI students: timetables, exams, professors and more."
+url = "https://github.com/UNICT-DMI/Telegram-DMI-Bot"
+image = "logos/dmi-bot.png"
+gallery = ["gallery/dmi-bot-1.jpg", "gallery/dmi-bot-2.jpg"]
+obscurity_bucket = 2
+obscurity_rating = 2.0
+cursedness_rating = 2.0
+
+[[items]]
+slug = "dmi-news"
+name = "DMI News"
+short_description = "Telegram bot posting University of Catania department news to channels."
+url = "https://github.com/UNICT-DMI/Telegram-UNICT-Bot"
+image = "logos/dmi-news.png"
+gallery = ["gallery/dmi-news-1.jpg"]
+obscurity_bucket = 1
+obscurity_rating = 2.4
+cursedness_rating = 5.0
+
+[[items]]
+slug = "spotted-dmi-bot"
+name = "Spotted DMI Bot"
+short_description = "`@Spotted_DMI_Bot`, anonymous spotted posts for DMI students."
+url = "https://github.com/UNICT-DMI/Telegram-SpottedDMI-Bot"
+image = "logos/spotted-dmi-bot.png"
+obscurity_bucket = 1
+obscurity_rating = 2.8
+cursedness_rating = 8.0
+
+[[items]]
+slug = "unict-telegram-hub"
+name = "UNICT Telegram groups & bots"
+short_description = "List of Telegram channels, groups and bots of the University of Catania."
+url = "https://github.com/UNICT-DMI/unict-telegram-hub"
+image = "logos/unict-telegram-hub.png"
+gallery = ["gallery/unict-telegram-hub-1.jpg"]
+obscurity_bucket = 3
+obscurity_rating = 3.2
+cursedness_rating = 3.0
+
+[[items]]
+slug = "albo-unict"
+name = "Albo UNICT"
+short_description = "Forwards the University of Catania official notice board to `@albo_unict`."
+url = "https://github.com/UNICT-DMI/albo-2-telegram"
+image = "logos/albo-unict.png"
+obscurity_bucket = 3
+obscurity_rating = 3.6
+cursedness_rating = 6.0
+
+[[items]]
+slug = "bookmarket-bot"
+name = "UNICT Bookmarket Bot"
+short_description = "Telegram bot to sell and buy second hand university books."
+url = "https://github.com/UNICT-DMI/Telegram-BookMarketBot"
+image = "logos/bookmarket-bot.png"
+obscurity_bucket = 4
+obscurity_rating = 4.2
+cursedness_rating = 4.0
+
+[[items]]
+slug = "medbot"
+name = "MedBot"
+short_description = "Telegram bot for the Medicine students of the University of Catania."
+url = "https://github.com/UNICT-DMI/Telegram-Medicina-Bot"
+image = "logos/medbot.png"
+obscurity_bucket = 4
+obscurity_rating = 4.6
+cursedness_rating = 7.0
+
+[[items]]
+slug = "studium-bot"
+name = "Studium Bot"
+short_description = "Telegram bot bringing Studium course notices to students."
+url = "https://github.com/UNICT-DMI/Telegram-Studium-Bot"
+image = "logos/studium-bot.png"
+obscurity_bucket = 5
+obscurity_rating = 5.2
+cursedness_rating = 3.0
+
+[[items]]
+slug = "unict-elezioni"
+name = "UNICT Elezioni"
+short_description = "All the election results of the University of Catania."
+url = "https://github.com/UNICT-DMI/UNICT-Elezioni"
+image = "logos/unict-elezioni.png"
+gallery = ["gallery/unict-elezioni-1.jpg", "gallery/unict-elezioni-2.jpg"]
+obscurity_bucket = 5
+obscurity_rating = 5.6
+cursedness_rating = 7.0
+
+[[items]]
+slug = "open-job-dmi"
+name = "Open Job DMI"
+short_description = "Job offers for DMI students, on the web and on `@OpenJobDMI`."
+url = "https://open-job-dmi.unictdev.org/"
+image = "logos/open-job-dmi.png"
+gallery = ["gallery/open-job-dmi-1.jpg"]
+obscurity_bucket = 6
+obscurity_rating = 6.5
+cursedness_rating = 5.0
+
+[[items]]
+slug = "unict-reservation"
+name = "unict-reservation"
+short_description = "Reserve a study room at the University of Catania through a Telegram bot, written in Rust."
+url = "https://github.com/UNICT-DMI/unict-reservation"
+image = "logos/unict-reservation.png"
+obscurity_bucket = 7
+obscurity_rating = 7.5
+cursedness_rating = 6.0
+
+[[items]]
+slug = "saturday-morning-snippets"
+name = "Saturday Morning Snippets"
+short_description = "Weekly code snippets shared by the UNICT Devs community."
+url = "https://github.com/UNICT-DMI/saturday-morning-snippets"
+image = "logos/saturday-morning-snippets.png"
+obscurity_bucket = 8
+obscurity_rating = 8.5
+cursedness_rating = 5.0
+
+[[items]]
+slug = "opis-manager"
+name = "OPIS Manager"
+short_description = "Data visualization of the OPIS student course evaluation results."
+url = "https://github.com/UNICT-DMI/OPIS-Manager"
+image = "logos/opis-manager.png"
+gallery = ["gallery/opis-manager-4.jpg", "gallery/opis-manager-1.jpg", "gallery/opis-manager-2.jpg", "gallery/opis-manager-3.jpg"]
+obscurity_bucket = 10
+obscurity_rating = 9.5
+cursedness_rating = 5.0

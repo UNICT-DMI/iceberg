@@ -1,0 +1,611 @@
+{
+  "ersu-news": {
+    "contributors_total": 6,
+    "contributors_url": "https://github.com/UNICT-DMI/ERSU-Bot/graphs/contributors",
+    "contributors": [
+      {
+        "name": "Leonardo Mirabella",
+        "avatar": "https://avatars.githubusercontent.com/u/91614116?v=4&s=96",
+        "url": "https://github.com/infra-blue"
+      },
+      {
+        "name": "Stefano Borzì",
+        "avatar": "https://avatars.githubusercontent.com/u/519778?v=4&s=96",
+        "url": "https://github.com/Helias"
+      },
+      {
+        "name": "Damiano Vincenzo Coppola",
+        "avatar": "https://avatars.githubusercontent.com/u/59794331?v=4&s=96",
+        "url": "https://github.com/DefEnge"
+      },
+      {
+        "name": "Ernesto Casablanca",
+        "avatar": "https://avatars.githubusercontent.com/u/65033249?v=4&s=96",
+        "url": "https://github.com/TendTo"
+      },
+      {
+        "name": "Giuseppe Tornello",
+        "avatar": "https://avatars.githubusercontent.com/u/241163340?v=4&s=96",
+        "url": "https://github.com/Giuseppe-Tornello"
+      },
+      {
+        "name": "Salvo Polizzi",
+        "avatar": "https://avatars.githubusercontent.com/u/101474753?v=4&s=96",
+        "url": "https://github.com/salvo-polizzi"
+      }
+    ]
+  },
+  "dmi-bot": {
+    "contributors_total": 36,
+    "contributors_url": "https://github.com/UNICT-DMI/Telegram-DMI-Bot/graphs/contributors",
+    "contributors": [
+      {
+        "name": "Stefano Borzì",
+        "avatar": "https://avatars.githubusercontent.com/u/519778?v=4&s=96",
+        "url": "https://github.com/Helias"
+      },
+      {
+        "name": "Alessandro Maggio",
+        "avatar": "https://avatars.githubusercontent.com/u/14061593?v=4&s=96",
+        "url": "https://github.com/Tkd-Alex"
+      },
+      {
+        "name": "Davide Carnemolla",
+        "avatar": "https://avatars.githubusercontent.com/u/5670917?v=4&s=96",
+        "url": "https://github.com/Herbrant"
+      },
+      {
+        "name": "Vincenzo Filetti",
+        "avatar": "https://avatars.githubusercontent.com/u/12848009?v=4&s=96",
+        "url": "https://github.com/Veeenz"
+      },
+      {
+        "name": "Salvo Asero",
+        "avatar": "https://avatars.githubusercontent.com/u/38427324?v=4&s=96",
+        "url": "https://github.com/Guberlo"
+      },
+      {
+        "name": "Ernesto Casablanca",
+        "avatar": "https://avatars.githubusercontent.com/u/65033249?v=4&s=96",
+        "url": "https://github.com/TendTo"
+      },
+      {
+        "name": "Simone Di mauro",
+        "avatar": "https://avatars.githubusercontent.com/u/12884580?v=4&s=96",
+        "url": "https://github.com/simone989"
+      },
+      {
+        "name": "Pierpaolo Pecoraio",
+        "avatar": "https://avatars.githubusercontent.com/u/17741832?v=4&s=96",
+        "url": "https://github.com/Pierpaolo791"
+      },
+      {
+        "name": "Adriano Ferraguto",
+        "avatar": "https://avatars.githubusercontent.com/u/15091023?v=4&s=96",
+        "url": "https://github.com/adrianoferraguto"
+      },
+      {
+        "name": "Alessandro Catalano",
+        "avatar": "https://avatars.githubusercontent.com/u/20024590?v=4&s=96",
+        "url": "https://github.com/Wornairz"
+      },
+      {
+        "name": "Lorenzo",
+        "avatar": "https://avatars.githubusercontent.com/u/11978802?v=4&s=96",
+        "url": "https://github.com/aegroto"
+      },
+      {
+        "name": "Danilo Santitto",
+        "avatar": "https://avatars.githubusercontent.com/u/32953565?v=4&s=96",
+        "url": "https://github.com/wredan"
+      },
+      {
+        "name": "Santo Cariotti",
+        "avatar": "https://avatars.githubusercontent.com/u/20584215?v=4&s=96",
+        "url": "https://github.com/boozec"
+      },
+      {
+        "name": "Alessio Tudisco",
+        "avatar": "https://avatars.githubusercontent.com/u/5560558?v=4&s=96",
+        "url": "https://github.com/LightDestory"
+      },
+      {
+        "name": "Luca Longo",
+        "avatar": "https://avatars.githubusercontent.com/u/50534107?v=4&s=96",
+        "url": "https://github.com/Daedalus9"
+      },
+      {
+        "name": "Francesco Coppola",
+        "avatar": "https://avatars.githubusercontent.com/u/56275543?v=4&s=96",
+        "url": "https://github.com/fg-coppola"
+      },
+      {
+        "name": "filippocampo98",
+        "avatar": "https://avatars.githubusercontent.com/u/67335588?v=4&s=96",
+        "url": "https://github.com/filippocampo98"
+      },
+      {
+        "name": "Simone Costanzo",
+        "avatar": "https://avatars.githubusercontent.com/u/95088305?v=4&s=96",
+        "url": "https://github.com/scraccio"
+      },
+      {
+        "name": "drendog",
+        "avatar": "https://avatars.githubusercontent.com/u/53359960?v=4&s=96",
+        "url": "https://github.com/drendog"
+      },
+      {
+        "name": "campofilippo98",
+        "avatar": "https://avatars.githubusercontent.com/u/110598518?v=4&s=96",
+        "url": "https://github.com/campofilippo98"
+      },
+      {
+        "name": "Salvo Polizzi",
+        "avatar": "https://avatars.githubusercontent.com/u/101474753?v=4&s=96",
+        "url": "https://github.com/salvo-polizzi"
+      },
+      {
+        "name": "Giuseppe Criscione",
+        "avatar": "https://avatars.githubusercontent.com/u/26717218?v=4&s=96",
+        "url": "https://github.com/Datalux"
+      },
+      {
+        "name": "InfernoMentale",
+        "avatar": "https://avatars.githubusercontent.com/u/52544879?v=4&s=96",
+        "url": "https://github.com/InfernoMentale"
+      },
+      {
+        "name": "alepiaz",
+        "avatar": "https://avatars.githubusercontent.com/u/52930378?v=4&s=96",
+        "url": "https://github.com/alepiaz"
+      },
+      {
+        "name": "TaToTanWeb",
+        "avatar": "https://avatars.githubusercontent.com/u/75488098?v=4&s=96",
+        "url": "https://github.com/TaToTanWeb"
+      },
+      {
+        "name": "Lorenzo Pappalardo",
+        "avatar": "https://avatars.githubusercontent.com/u/56509174?v=4&s=96",
+        "url": "https://github.com/Lorenzo-Pappalardo"
+      },
+      {
+        "name": "Leonardo Mirabella",
+        "avatar": "https://avatars.githubusercontent.com/u/91614116?v=4&s=96",
+        "url": "https://github.com/infra-blue"
+      },
+      {
+        "name": "Giuseppe",
+        "avatar": "https://avatars.githubusercontent.com/u/43548194?v=4&s=96",
+        "url": "https://github.com/Hollerith98T"
+      },
+      {
+        "name": "Andrea Maugeri",
+        "avatar": "https://avatars.githubusercontent.com/u/20267645?v=4&s=96",
+        "url": "https://github.com/v0lp3"
+      },
+      {
+        "name": "Andrei Stefan",
+        "avatar": "https://avatars.githubusercontent.com/u/102211437?v=4&s=96",
+        "url": "https://github.com/Picred"
+      },
+      {
+        "name": "Fabrizio Cipria",
+        "avatar": "https://avatars.githubusercontent.com/u/83660712?v=4&s=96",
+        "url": "https://github.com/fabrizio-07"
+      },
+      {
+        "name": "Francisco Pablo Russo",
+        "avatar": "https://avatars.githubusercontent.com/u/27015228?v=4&s=96",
+        "url": "https://github.com/franciscopablorusso"
+      },
+      {
+        "name": "Giulio Pedicone",
+        "avatar": "https://avatars.githubusercontent.com/u/92689392?v=4&s=96",
+        "url": "https://github.com/giuliopedicone02"
+      },
+      {
+        "name": "k0k3sh!",
+        "avatar": "https://avatars.githubusercontent.com/u/27502095?v=4&s=96",
+        "url": "https://github.com/MKokeshi"
+      },
+      {
+        "name": "Paolo Rabbito",
+        "avatar": "https://avatars.githubusercontent.com/u/47228598?v=4&s=96",
+        "url": "https://github.com/paolorabbito"
+      },
+      {
+        "name": "Valeri0p",
+        "avatar": "https://avatars.githubusercontent.com/u/24795760?v=4&s=96",
+        "url": "https://github.com/Valeri0p"
+      }
+    ]
+  },
+  "dmi-news": {
+    "contributors_total": 9,
+    "contributors_url": "https://github.com/UNICT-DMI/Telegram-UNICT-Bot/graphs/contributors",
+    "contributors": [
+      {
+        "name": "Stefano Borzì",
+        "avatar": "https://avatars.githubusercontent.com/u/519778?v=4&s=96",
+        "url": "https://github.com/Helias"
+      },
+      {
+        "name": "Davide Carnemolla",
+        "avatar": "https://avatars.githubusercontent.com/u/5670917?v=4&s=96",
+        "url": "https://github.com/Herbrant"
+      },
+      {
+        "name": "Lorenzo",
+        "avatar": "https://avatars.githubusercontent.com/u/11978802?v=4&s=96",
+        "url": "https://github.com/aegroto"
+      },
+      {
+        "name": "Ernesto Casablanca",
+        "avatar": "https://avatars.githubusercontent.com/u/65033249?v=4&s=96",
+        "url": "https://github.com/TendTo"
+      },
+      {
+        "name": "drendog",
+        "avatar": "https://avatars.githubusercontent.com/u/53359960?v=4&s=96",
+        "url": "https://github.com/drendog"
+      },
+      {
+        "name": "Francesco Coppola",
+        "avatar": "https://avatars.githubusercontent.com/u/56275543?v=4&s=96",
+        "url": "https://github.com/fg-coppola"
+      },
+      {
+        "name": "Giuseppe",
+        "avatar": "https://avatars.githubusercontent.com/u/43548194?v=4&s=96",
+        "url": "https://github.com/Hollerith98T"
+      },
+      {
+        "name": "Pierpaolo Pecoraio",
+        "avatar": "https://avatars.githubusercontent.com/u/17741832?v=4&s=96",
+        "url": "https://github.com/Pierpaolo791"
+      },
+      {
+        "name": "Vincenzo Filetti",
+        "avatar": "https://avatars.githubusercontent.com/u/12848009?v=4&s=96",
+        "url": "https://github.com/Veeenz"
+      }
+    ]
+  },
+  "spotted-dmi-bot": {
+    "contributors_total": 11,
+    "contributors_url": "https://github.com/UNICT-DMI/Telegram-SpottedDMI-Bot/graphs/contributors",
+    "contributors": [
+      {
+        "name": "Ernesto Casablanca",
+        "avatar": "https://avatars.githubusercontent.com/u/65033249?v=4&s=96",
+        "url": "https://github.com/TendTo"
+      },
+      {
+        "name": "drendog",
+        "avatar": "https://avatars.githubusercontent.com/u/53359960?v=4&s=96",
+        "url": "https://github.com/drendog"
+      },
+      {
+        "name": "Stefano Borzì",
+        "avatar": "https://avatars.githubusercontent.com/u/519778?v=4&s=96",
+        "url": "https://github.com/Helias"
+      },
+      {
+        "name": "Davide Carnemolla",
+        "avatar": "https://avatars.githubusercontent.com/u/5670917?v=4&s=96",
+        "url": "https://github.com/Herbrant"
+      },
+      {
+        "name": "Alessio Tudisco",
+        "avatar": "https://avatars.githubusercontent.com/u/5560558?v=4&s=96",
+        "url": "https://github.com/LightDestory"
+      },
+      {
+        "name": "alepiaz",
+        "avatar": "https://avatars.githubusercontent.com/u/52930378?v=4&s=96",
+        "url": "https://github.com/alepiaz"
+      },
+      {
+        "name": "Alessandro Resta",
+        "avatar": "https://avatars.githubusercontent.com/u/77611890?v=4&s=96",
+        "url": "https://github.com/Alessandrus00"
+      },
+      {
+        "name": "Andrei Stefan",
+        "avatar": "https://avatars.githubusercontent.com/u/102211437?v=4&s=96",
+        "url": "https://github.com/Picred"
+      },
+      {
+        "name": "FilTTy",
+        "avatar": "https://avatars.githubusercontent.com/u/87099027?v=4&s=96",
+        "url": "https://github.com/FilippoMarletta"
+      },
+      {
+        "name": "TaToTanWeb",
+        "avatar": "https://avatars.githubusercontent.com/u/75488098?v=4&s=96",
+        "url": "https://github.com/TaToTanWeb"
+      },
+      {
+        "name": "Lorenzo Paoria",
+        "avatar": "https://avatars.githubusercontent.com/u/82080452?v=4&s=96",
+        "url": "https://github.com/lorenzopaoria"
+      }
+    ]
+  },
+  "unict-telegram-hub": {
+    "contributors_total": 3,
+    "contributors_url": "https://github.com/UNICT-DMI/unict-telegram-hub/graphs/contributors",
+    "contributors": [
+      {
+        "name": "Lorenzo Pappalardo",
+        "avatar": "https://avatars.githubusercontent.com/u/56509174?v=4&s=96",
+        "url": "https://github.com/Lorenzo-Pappalardo"
+      },
+      {
+        "name": "Stefano Borzì",
+        "avatar": "https://avatars.githubusercontent.com/u/519778?v=4&s=96",
+        "url": "https://github.com/Helias"
+      },
+      {
+        "name": "Mati",
+        "avatar": "https://avatars.githubusercontent.com/u/35099273?v=4&s=96",
+        "url": "https://github.com/rosymati"
+      }
+    ]
+  },
+  "albo-unict": {
+    "contributors_total": 2,
+    "contributors_url": "https://github.com/UNICT-DMI/albo-2-telegram/graphs/contributors",
+    "contributors": [
+      {
+        "name": "Luca Greco",
+        "avatar": "https://avatars.githubusercontent.com/u/32610222?v=4&s=96",
+        "url": "https://github.com/LukeTheWalker"
+      },
+      {
+        "name": "Stefano Borzì",
+        "avatar": "https://avatars.githubusercontent.com/u/519778?v=4&s=96",
+        "url": "https://github.com/Helias"
+      }
+    ]
+  },
+  "bookmarket-bot": {
+    "contributors_total": 5,
+    "contributors_url": "https://github.com/UNICT-DMI/Telegram-BookMarketBot/graphs/contributors",
+    "contributors": [
+      {
+        "name": "Stefano Borzì",
+        "avatar": "https://avatars.githubusercontent.com/u/519778?v=4&s=96",
+        "url": "https://github.com/Helias"
+      },
+      {
+        "name": "Luca Garro",
+        "avatar": "https://avatars.githubusercontent.com/u/81372229?v=4&s=96",
+        "url": "https://github.com/ellegint"
+      },
+      {
+        "name": "TaToTanWeb",
+        "avatar": "https://avatars.githubusercontent.com/u/75488098?v=4&s=96",
+        "url": "https://github.com/TaToTanWeb"
+      },
+      {
+        "name": "Salvo Polizzi",
+        "avatar": "https://avatars.githubusercontent.com/u/101474753?v=4&s=96",
+        "url": "https://github.com/salvo-polizzi"
+      },
+      {
+        "name": "Davide Carnemolla",
+        "avatar": "https://avatars.githubusercontent.com/u/5670917?v=4&s=96",
+        "url": "https://github.com/Herbrant"
+      }
+    ]
+  },
+  "medbot": {
+    "contributors_total": 3,
+    "contributors_url": "https://github.com/UNICT-DMI/Telegram-Medicina-Bot/graphs/contributors",
+    "contributors": [
+      {
+        "name": "Stefano Borzì",
+        "avatar": "https://avatars.githubusercontent.com/u/519778?v=4&s=96",
+        "url": "https://github.com/Helias"
+      },
+      {
+        "name": "Davide Carnemolla",
+        "avatar": "https://avatars.githubusercontent.com/u/5670917?v=4&s=96",
+        "url": "https://github.com/Herbrant"
+      },
+      {
+        "name": "Lorenzo",
+        "avatar": "https://avatars.githubusercontent.com/u/11978802?v=4&s=96",
+        "url": "https://github.com/aegroto"
+      }
+    ]
+  },
+  "studium-bot": {
+    "contributors_total": 4,
+    "contributors_url": "https://github.com/UNICT-DMI/Telegram-Studium-Bot/graphs/contributors",
+    "contributors": [
+      {
+        "name": "Alessandro Catalano",
+        "avatar": "https://avatars.githubusercontent.com/u/20024590?v=4&s=96",
+        "url": "https://github.com/Wornairz"
+      },
+      {
+        "name": "Danilo Santitto",
+        "avatar": "https://avatars.githubusercontent.com/u/32953565?v=4&s=96",
+        "url": "https://github.com/wredan"
+      },
+      {
+        "name": "Pierpaolo Pecoraio",
+        "avatar": "https://avatars.githubusercontent.com/u/17741832?v=4&s=96",
+        "url": "https://github.com/Pierpaolo791"
+      },
+      {
+        "name": "Stefano Borzì",
+        "avatar": "https://avatars.githubusercontent.com/u/519778?v=4&s=96",
+        "url": "https://github.com/Helias"
+      }
+    ]
+  },
+  "unict-elezioni": {
+    "contributors_total": 7,
+    "contributors_url": "https://github.com/UNICT-DMI/UNICT-Elezioni/graphs/contributors",
+    "contributors": [
+      {
+        "name": "Stefano Borzì",
+        "avatar": "https://avatars.githubusercontent.com/u/519778?v=4&s=96",
+        "url": "https://github.com/Helias"
+      },
+      {
+        "name": "drendog",
+        "avatar": "https://avatars.githubusercontent.com/u/53359960?v=4&s=96",
+        "url": "https://github.com/drendog"
+      },
+      {
+        "name": "Seminara Luigi",
+        "avatar": "https://avatars.githubusercontent.com/u/45624102?v=4&s=96",
+        "url": "https://github.com/Gigi-G"
+      },
+      {
+        "name": "Andrea Maugeri",
+        "avatar": "https://avatars.githubusercontent.com/u/20267645?v=4&s=96",
+        "url": "https://github.com/v0lp3"
+      },
+      {
+        "name": "Davide Carnemolla",
+        "avatar": "https://avatars.githubusercontent.com/u/5670917?v=4&s=96",
+        "url": "https://github.com/Herbrant"
+      },
+      {
+        "name": "Vincenzo Filetti",
+        "avatar": "https://avatars.githubusercontent.com/u/12848009?v=4&s=96",
+        "url": "https://github.com/Veeenz"
+      },
+      {
+        "name": "k0k3sh!",
+        "avatar": "https://avatars.githubusercontent.com/u/27502095?v=4&s=96",
+        "url": "https://github.com/MKokeshi"
+      }
+    ]
+  },
+  "open-job-dmi": {
+    "contributors_total": 4,
+    "contributors_url": "https://github.com/UNICT-DMI/open-job-dmi/graphs/contributors",
+    "contributors": [
+      {
+        "name": "Davide Carnemolla",
+        "avatar": "https://avatars.githubusercontent.com/u/5670917?v=4&s=96",
+        "url": "https://github.com/Herbrant"
+      },
+      {
+        "name": "Stefano Borzì",
+        "avatar": "https://avatars.githubusercontent.com/u/519778?v=4&s=96",
+        "url": "https://github.com/Helias"
+      },
+      {
+        "name": "Alessio Tudisco",
+        "avatar": "https://avatars.githubusercontent.com/u/5560558?v=4&s=96",
+        "url": "https://github.com/LightDestory"
+      },
+      {
+        "name": "drendog",
+        "avatar": "https://avatars.githubusercontent.com/u/53359960?v=4&s=96",
+        "url": "https://github.com/drendog"
+      }
+    ]
+  },
+  "unict-reservation": {
+    "contributors_total": 1,
+    "contributors_url": "https://github.com/UNICT-DMI/unict-reservation/graphs/contributors",
+    "contributors": [
+      {
+        "name": "Santo Cariotti",
+        "avatar": "https://avatars.githubusercontent.com/u/20584215?v=4&s=96",
+        "url": "https://github.com/boozec"
+      }
+    ]
+  },
+  "saturday-morning-snippets": {
+    "contributors_total": 2,
+    "contributors_url": "https://github.com/UNICT-DMI/saturday-morning-snippets/graphs/contributors",
+    "contributors": [
+      {
+        "name": "Davide Carnemolla",
+        "avatar": "https://avatars.githubusercontent.com/u/5670917?v=4&s=96",
+        "url": "https://github.com/Herbrant"
+      },
+      {
+        "name": "Stefano Borzì",
+        "avatar": "https://avatars.githubusercontent.com/u/519778?v=4&s=96",
+        "url": "https://github.com/Helias"
+      }
+    ]
+  },
+  "opis-manager": {
+    "contributors_total": 12,
+    "contributors_url": "https://github.com/UNICT-DMI/OPIS-Manager/graphs/contributors",
+    "contributors": [
+      {
+        "name": "Stefano Borzì",
+        "avatar": "https://avatars.githubusercontent.com/u/519778?v=4&s=96",
+        "url": "https://github.com/Helias"
+      },
+      {
+        "name": "Alessandro Catalano",
+        "avatar": "https://avatars.githubusercontent.com/u/20024590?v=4&s=96",
+        "url": "https://github.com/Wornairz"
+      },
+      {
+        "name": "Pierpaolo Pecoraio",
+        "avatar": "https://avatars.githubusercontent.com/u/17741832?v=4&s=96",
+        "url": "https://github.com/Pierpaolo791"
+      },
+      {
+        "name": "Lemuel Puglisi",
+        "avatar": "https://avatars.githubusercontent.com/u/42694683?v=4&s=96",
+        "url": "https://github.com/LemuelPuglisi"
+      },
+      {
+        "name": "Chiara Zuccaro",
+        "avatar": "https://avatars.githubusercontent.com/u/99088143?v=4&s=96",
+        "url": "https://github.com/ChiaraZuccaro"
+      },
+      {
+        "name": "k0k3sh!",
+        "avatar": "https://avatars.githubusercontent.com/u/27502095?v=4&s=96",
+        "url": "https://github.com/MKokeshi"
+      },
+      {
+        "name": "Davide Carnemolla",
+        "avatar": "https://avatars.githubusercontent.com/u/5670917?v=4&s=96",
+        "url": "https://github.com/Herbrant"
+      },
+      {
+        "name": "FilTTy",
+        "avatar": "https://avatars.githubusercontent.com/u/87099027?v=4&s=96",
+        "url": "https://github.com/FilippoMarletta"
+      },
+      {
+        "name": "Francesco Borzì",
+        "avatar": "https://avatars.githubusercontent.com/u/75517?v=4&s=96",
+        "url": "https://github.com/FrancescoBorzi"
+      },
+      {
+        "name": "Martina Parlavecchio",
+        "avatar": "https://avatars.githubusercontent.com/u/56761311?v=4&s=96",
+        "url": "https://github.com/makapx"
+      },
+      {
+        "name": "Salvo Asero",
+        "avatar": "https://avatars.githubusercontent.com/u/38427324?v=4&s=96",
+        "url": "https://github.com/Guberlo"
+      },
+      {
+        "name": "Santo Cariotti",
+        "avatar": "https://avatars.githubusercontent.com/u/20584215?v=4&s=96",
+        "url": "https://github.com/boozec"
+      }
+    ]
+  }
+}

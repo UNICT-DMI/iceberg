@@ -37,3 +37,6 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 # browser test artifacts (reviewed screenshots live under tests/browser/screenshots)
 playwright-report/
 test-results/
+
+# GitHub Pages build of unict-devs/
+dist-pages
