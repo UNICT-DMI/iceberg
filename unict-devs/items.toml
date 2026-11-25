@@ -1,6 +1,6 @@
 # UNICT Devs (github.com/UNICT-DMI) projects, from the tip to the abyss.
 schema_version = 1
-item_count = 14
+item_count = 15
 
 [[items]]
 slug = "ersu-news"
@@ -136,6 +136,17 @@ url = "https://github.com/UNICT-DMI/saturday-morning-snippets"
 image = "logos/saturday-morning-snippets.png"
 obscurity_bucket = 8
 obscurity_rating = 8.5
+cursedness_rating = 5.0
+
+[[items]]
+slug = "santini-generator"
+name = "Santini Generator"
+short_description = "Creates the voting reminder cards (santini) for the University of Catania student elections."
+url = "https://github.com/UNICT-DMI/Santini-Generator"
+image = "logos/santini-generator.png"
+gallery = ["gallery/santini-generator-1.jpg"]
+obscurity_bucket = 9
+obscurity_rating = 9.0
 cursedness_rating = 5.0
 
 [[items]]

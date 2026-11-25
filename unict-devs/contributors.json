@@ -542,6 +542,22 @@
       }
     ]
   },
+  "santini-generator": {
+    "contributors_total": 2,
+    "contributors_url": "https://github.com/UNICT-DMI/Santini-Generator/graphs/contributors",
+    "contributors": [
+      {
+        "name": "Stefano Borzì",
+        "avatar": "https://avatars.githubusercontent.com/u/519778?v=4&s=96",
+        "url": "https://github.com/Helias"
+      },
+      {
+        "name": "Ernesto Casablanca",
+        "avatar": "https://avatars.githubusercontent.com/u/65033249?v=4&s=96",
+        "url": "https://github.com/TendTo"
+      }
+    ]
+  },
   "opis-manager": {
     "contributors_total": 12,
     "contributors_url": "https://github.com/UNICT-DMI/OPIS-Manager/graphs/contributors",
